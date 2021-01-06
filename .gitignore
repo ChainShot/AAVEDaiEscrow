@@ -1,0 +1,6 @@
+!.gitignore
+app/dist
+artifacts
+cache
+.cache
+.env

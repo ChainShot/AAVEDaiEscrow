@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title> Escrow Dapp </title>
+  </head>
+
+  <body>
+    <div class="contract">
+      <h1> New Contract </h1>
+      <label>
+        Arbiter Address
+        <input type="text" id="arbiter"/>
+      </label>
+
+      <label>
+        Beneficiary Address
+        <input type="text" id="beneficiary"/>
+      </label>
+
+      <label>
+        Deposit Amount (DAI)
+        <input type="text" id="wei"/>
+      </label>
+
+      <div class="button" id="deploy">
+        Approve & Deploy
+      </div>
+    </div>
+
+    <div class="existing-contracts">
+      <h1> Existing Contracts </h1>
+
+      <div id="container">
+          <!-- where existing contracts will go -->
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
