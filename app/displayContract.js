@@ -45,7 +45,7 @@ function createHTML(buttonId, arbiter, beneficiary, address, value) {
           </p>
         </li>
         <div class="button" id="${buttonId}">
-          Approve
+          Approve Escrow
         </div>
       </ul>
     </div>
