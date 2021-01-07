@@ -4,33 +4,40 @@
   </head>
 
   <body>
-    <div class="contract">
-      <h1> New Contract </h1>
-      <label>
-        Arbiter Address
-        <input type="text" id="arbiter"/>
-      </label>
-
-      <label>
-        Beneficiary Address
-        <input type="text" id="beneficiary"/>
-      </label>
-
-      <label>
-        Deposit Amount (DAI)
-        <input type="text" id="wei"/>
-      </label>
-
-      <div class="button" id="deploy">
-        Approve & Deploy
-      </div>
+    <div class="network">
+      This DApp will work on Kovan where the AAVE testnet smart contracts are deployed </br>
+      You are currently <div id="network-id">not connected</div>
     </div>
 
-    <div class="existing-contracts">
-      <h1> Existing Contracts </h1>
+    <div class="ui">
+      <div class="contract">
+        <h1> New Contract </h1>
+        <label>
+          Arbiter Address
+          <input type="text" id="arbiter"/>
+        </label>
 
-      <div id="container">
-          <!-- where existing contracts will go -->
+        <label>
+          Beneficiary Address
+          <input type="text" id="beneficiary"/>
+        </label>
+
+        <label>
+          Deposit Amount (DAI)
+          <input type="text" id="wei"/>
+        </label>
+
+        <div class="button" id="deploy">
+          Approve & Deploy
+        </div>
+      </div>
+
+      <div class="existing-contracts">
+        <h1> Existing Contracts </h1>
+
+        <div id="container">
+            <!-- where existing contracts will go -->
+        </div>
       </div>
     </div>
 

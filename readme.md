@@ -30,9 +30,19 @@ To learn more about these commands run `npx hardhat help`.
 To run the front-end application:
 
 1. Compile the contracts with `npx hardhat compile` (this will make the artifacts accessible to `/app`)
-2. Move into the `app` folder and run `parcel index.html`.
+2. Move into the `app` folder and run `parcel index.html`
 
 You can learn more about Parcel [here](https://parceljs.org/).
+
+### Using the Dapp
+
+To use the Dapp, first install [Metamask](metamask.io) to your browser of choice.
+
+Once you have metamask installed, you should see a connection notice at the top of the Dapp. The Dapp is currently setup to work **only on Kovan**. You can switch to Kovan by clicking on the metamask browser extension.
+
+Once you have switched to Kovan, you will need some Kovan ether to perform any transactions. At the time of writing [this kovan faucet](https://faucet.kovan.network/) works when you sign in with Github.
+
+When you have your Kovan Ether, the next step is to get some Kovan DAI. After all, this is a **DAI Escrow**! One way to do this would be to borrow some from [AAVE](https://testnet.aave.com/dashboard). If you deposit some Kovan ether you can borrow DAI. Then you can use this DAI to create and fund the Escrow contract!
 
 ## Tests
 

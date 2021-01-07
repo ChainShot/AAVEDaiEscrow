@@ -14,4 +14,13 @@ async function newContract() {
   }
 }
 
+async function loadNetworkId() {
+  const provider = new ethers.providers.Web3Provider(ethereum);
+  const network = await provider.getNetwork();
+  document.getElementById("network-id").innerHTML = `connected to ${network.name}`;
+}
+
+ethereum.on('chainChanged', loadNetworkId);
+loadNetworkId();
+
 document.getElementById("deploy").addEventListener("click", newContract);
