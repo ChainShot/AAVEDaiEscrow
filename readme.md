@@ -44,7 +44,7 @@ Once you have switched to Kovan, you will need some Kovan ether to perform any t
 
 When you have your Kovan Ether, the next step is to get some Kovan DAI. After all, this is a **DAI Escrow**! One way to do this would be to borrow some from [AAVE](https://testnet.aave.com/dashboard). If you deposit some Kovan ether you can borrow DAI. Then you can use this DAI to create and fund the Escrow contract!
 
-Fill in the **New Contract** fields and then click **Approve && Deploy**. This will have you approve the Escrow to spend your DAI, and then deploy the contract once that transaction has been completed (this may take a moment).
+Fill in the **New Contract** fields and then click **Approve DAI & Deploy**. This will have you approve the Escrow to spend your DAI, and then deploy the contract once that transaction has been completed (this may take a moment).
 
 ## Tests
 
