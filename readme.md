@@ -27,13 +27,16 @@ To learn more about these commands run `npx hardhat help`.
 
 ## Front-End
 
-To run the front-end application move into the `app` folder and run `parcel index.html`.
+To run the front-end application:
+
+1. Compile the contracts with `npx hardhat compile` (this will make the artifacts accessible to `/app`)
+2. Move into the `app` folder and run `parcel index.html`.
 
 You can learn more about Parcel [here](https://parceljs.org/).
 
 ## Tests
 
-The tests are setup to point at already deployed AAVE contracts. We'll need to fork mainnet to do this in our test blockchain. 
+The tests are setup to point at already deployed AAVE contracts. We'll need to fork mainnet to do this in our test blockchain.
 
 ### Forking Mainnet
 
